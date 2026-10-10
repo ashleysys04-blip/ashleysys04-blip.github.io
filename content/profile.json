@@ -21,25 +21,27 @@
   "projects": [
     {
       "number": "01",
-      "category": "DEVICE PHYSICS / NEUROMORPHIC HARDWARE",
-      "title": "Hysteretic Push–Pull Silicon Devices for History-Dependent Vestibular Encoding",
-      "date": "Jun 2026 — Present",
-      "context": "KAIST · NOBELab · Prof. Yang-Kyu Choi",
-      "description": "Investigating how latch transitions and hysteresis in silicon devices can represent input history and support physically implemented sensory-state encoding.",
+      "category": "DEVICE PHYSICS / TCAD SIMULATION",
+      "title": "Double-Latch Switching in Divided-Body SOI Transistors",
+      "date": "Aug 2026 — Present",
+      "context": "KAIST · NOBELab · Silvaco ATLAS / MixedMode",
+      "description": "Engineered a divided-body SOI transistor architecture to investigate sequential switching and multistate hysteresis within a silicon device.",
       "details": [
-        "Built Silvaco ATLAS TCAD models for MOSFET, SOI, and SONOS device structures.",
-        "Identified and studied double-latch behavior in SOI transistors, exploring threshold and hysteresis-window tuning.",
-        "Exploring multi-state device behavior and possible roles in excitatory/inhibitory neuromorphic circuits."
+        "Designed a split-body structure with two floating-body regions separated by an n+ island, a resistive tap, and tailored carrier lifetime.",
+        "Observed two latch transitions at 2.254 V and 3.296 V in drift-diffusion (DD) MixedMode simulations, with distinct hysteresis windows.",
+        "Studied the effects of body doping, island geometry, recombination lifetime, and tap resistance on switching behavior.",
+        "The second transition remains unverified with the hydrodynamic (hcte) model; further physical-model validation is ongoing."
       ],
       "tags": [
         "Silvaco ATLAS",
-        "SOI / SONOS",
-        "Hysteresis",
-        "Device modeling"
+        "SOI",
+        "Double latch",
+        "Floating body",
+        "MixedMode"
       ],
       "link": "https://github.com/ashleysys04-blip/EE761_DividedBody",
-      "linkLabel": "Related simulation repository",
-      "image": ""
+      "linkLabel": "View simulations, figures & research notes",
+      "image": "/ee761%20double%20latch.png"
     },
     {
       "number": "02",
@@ -61,7 +63,7 @@
       ],
       "link": "",
       "linkLabel": "",
-      "image": ""
+      "image": "/eth_vestibular.png"
     },
     {
       "number": "03",
@@ -83,7 +85,7 @@
       ],
       "link": "",
       "linkLabel": "",
-      "image": ""
+      "image": "/llm.png"
     },
     {
       "number": "04",
@@ -103,7 +105,7 @@
       ],
       "link": "",
       "linkLabel": "",
-      "image": ""
+      "image": "/alpha-synuclein.png"
     }
   ],
   "experience": [
