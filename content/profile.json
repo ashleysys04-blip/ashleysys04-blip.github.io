@@ -234,6 +234,10 @@
   "teaching": "KAIST Peer Tutor · Calculus II and General Chemistry (2024)",
   "outsideResearch": {
     "title": "Beyond Research",
-    "description": "Outside the lab, I enjoy listening to classical music. It's one of my favorite ways to spend my free time."
+    "description": "Outside the lab, I enjoy listening to classical music and traveling. My favorite composers are Rachmaninoff, Schumann, and Chopin, and my favorite piece is Rachmaninoff’s Piano Concerto No. 3.",
+    "interests": [
+      "CLASSICAL MUSIC",
+      "TRAVEL"
+    ]
   }
 }

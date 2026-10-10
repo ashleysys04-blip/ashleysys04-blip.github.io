@@ -150,3 +150,5 @@ h2{font-size:clamp(36px,4.4vw,58px);letter-spacing:-2px}
 .personal-copy p{max-width:510px;font-size:17px;color:var(--muted);line-height:1.8;margin-bottom:20px}
 .personal-interest{font-size:10px;letter-spacing:1.4px;color:var(--accent);font-weight:700}
 @media(max-width:760px){.personal-section{grid-template-columns:1fr;gap:14px;padding:42px 0 50px}.personal-copy{padding-top:0}.personal-copy p{font-size:15px}}
+
+.personal-interests{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px}
