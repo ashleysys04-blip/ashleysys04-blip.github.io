@@ -123,3 +123,10 @@ h2{font-size:clamp(36px,4.4vw,58px);letter-spacing:-2px}
 .research-art .project-figure{width:100%;align-self:flex-start;margin:0;background:#f1f4f1;padding:12px;border:1px solid var(--line)}
 .research-art .project-figure img{display:block;width:100%;height:auto;max-height:430px;object-fit:contain;object-position:center}
 @media(max-width:760px){.research-art .project-figure{padding:8px}.research-art .project-figure img{max-height:360px}}
+
+/* Academic history: independent lines rather than middle-dot separators. */
+.education-lines{display:flex;flex-direction:column;gap:3px;line-height:1.65}
+.education-lines .ed-degree{font-weight:600;font-size:14px;color:var(--ink)}
+.education-lines .ed-program{font-size:14px;font-weight:600;color:var(--ink)}
+.education-lines .ed-detail{font-size:13px;color:var(--muted);margin-top:10px}
+.education-lines .ed-coursework,.education-lines .ed-location{font-size:13px;color:var(--muted)}

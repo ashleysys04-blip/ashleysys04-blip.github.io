@@ -24,20 +24,18 @@
       "category": "DEVICE PHYSICS / TCAD SIMULATION",
       "title": "Double-Latch Switching in Divided-Body SOI Transistors",
       "date": "Aug 2026 — Present",
-      "context": "KAIST · NOBELab · Silvaco ATLAS / MixedMode",
+      "context": "KAIST · NOBELab · Silvaco ATLAS",
       "description": "Engineered a divided-body SOI transistor architecture to investigate sequential switching and multistate hysteresis within a silicon device.",
       "details": [
         "Designed a split-body structure with two floating-body regions separated by an n+ island, a resistive tap, and tailored carrier lifetime.",
-        "Observed two latch transitions at 2.254 V and 3.296 V in drift-diffusion (DD) MixedMode simulations, with distinct hysteresis windows.",
-        "Studied the effects of body doping, island geometry, recombination lifetime, and tap resistance on switching behavior.",
-        "The second transition remains unverified with the hydrodynamic (hcte) model; further physical-model validation is ongoing."
+        "Observed two latch transitions at 2.254 V and 3.296 V in drift-diffusion (DD) simulations, with distinct hysteresis windows.",
+        "Studied the effects of body doping, island geometry, recombination lifetime, and tap resistance on switching behavior."
       ],
       "tags": [
         "Silvaco ATLAS",
         "SOI",
         "Double latch",
-        "Floating body",
-        "MixedMode"
+        "Floating body"
       ],
       "link": "https://github.com/ashleysys04-blip/EE761_DividedBody",
       "linkLabel": "View simulations, figures & research notes",
@@ -48,7 +46,7 @@
       "category": "NEUROMORPHIC SYSTEMS / NEURAL ENCODING",
       "title": "Modeling Human Vestibular Encoding on a Neuromorphic Chip",
       "date": "Feb — Jun 2025",
-      "context": "ETH Zürich · Institute of Neuroinformatics · Prof. Giacomo Indiveri / Elisa Donati",
+      "context": "ETH Zürich · Institute of Neuroinformatics · Prof. Giacomo Indiveri / Prof. Elisa Donati",
       "description": "Modeled vestibular afferent encoding using the DYNAP-SE1 mixed-signal spiking processor, translating sinusoidal sensory stimuli into population spike responses.",
       "details": [
         "Injected sinusoidal current stimuli directly into neuromorphic neuron circuits.",
@@ -120,7 +118,7 @@
       "place": "ETH Zürich · Institute of Neuroinformatics (INI)",
       "role": "Research Project Student",
       "date": "Feb — Jun 2025",
-      "mentor": "Advisor: Prof. Giacomo Indiveri · Supervisor: Elisa Donati",
+      "mentor": "Advisor: Prof. Giacomo Indiveri · Supervisor: Prof. Elisa Donati",
       "summary": "Neuromorphic modeling of vestibular-system encoding with DYNAP-SE1; experimental stimulation, neural spike recording, and statistical/spectral analysis."
     },
     {
@@ -139,7 +137,7 @@
     }
   ],
   "cleanroom": {
-    "heading": "From simulation to fabrication.",
+    "heading": "From measurement to fabrication.",
     "intro": "Alongside computational device research, I have sought practical exposure to semiconductor processing and device characterization at KAIST NOBELab.",
     "items": [
       {
@@ -161,17 +159,20 @@
   "education": [
     {
       "school": "KAIST",
-      "degree": "B.S. in Electrical Engineering · Double Major in Brain and Cognitive Sciences",
+      "degree": "B.S. in Electrical Engineering",
       "date": "Feb 2023 — Jun 2027 (expected)",
       "location": "Daejeon, South Korea",
-      "detail": "GPA 4.08 / 4.30 (3.93 / 4.00)"
+      "detail": "GPA 4.08 / 4.30 (3.93 / 4.00)",
+      "secondaryDegree": "Double Major in Brain and Cognitive Sciences"
     },
     {
       "school": "ETH Zürich",
-      "degree": "Exchange student · Department of Information Technology and Electrical Engineering",
-      "date": "2025",
+      "degree": "Exchange Student",
+      "date": "Spring 2025",
       "location": "Zürich, Switzerland",
-      "detail": "GPA 5.18 / 6.00 · Neural Systems, Machine Learning, research project"
+      "detail": "GPA 5.18 / 6.00",
+      "secondaryDegree": "Department of Information Technology and Electrical Engineering",
+      "coursework": "Neural Systems, Machine Learning, Research Project"
     }
   ],
   "awards": [
