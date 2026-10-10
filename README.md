@@ -10,9 +10,10 @@ Notion, API 키, 외부 CMS 없이 GitHub 저장소의 파일만으로 운영합
 
 | 파일 | 용도 |
 |---|---|
-| `content/profile.json` | 이름, 자기소개, 연구 관심사, 프로젝트, 이메일, CV 경로 |
+| `content/profile.json` | 이름, 이메일, 연구 프로젝트 4개, 연구 경력, 클린룸 경험, 학력·장학금·기술 역량, 사진 및 CV 경로 |
 | `content/posts.json` | 블로그 글 |
-| `public/style.css` | 사이트 디자인 |
+| `public/style.css` | 사이트 디자인 및 반응형 레이아웃 |
+| `scripts/portfolio.mjs` | 홈페이지 섹션 렌더링 (HTML) |
 | `public/` | CV, 이미지 등 정적 파일 |
 
 GitHub에서 파일을 열고 연필 버튼으로 수정한 뒤 main에 커밋해도 됩니다.
@@ -20,9 +21,9 @@ GitHub에서 파일을 열고 연필 버튼으로 수정한 뒤 main에 커밋�
 ## 대학원 지원용 프로필 완성
 
 - 영어 소개와 연구 프로젝트 요약이 기본으로 들어 있습니다. 제출 전에 사실과 표현을 확인하세요.
-- `content/profile.json`의 `email`에 공개할 이메일을 입력하면 연락처 버튼이 표시됩니다.
+- KAIST 이메일 `ashleysys@kaist.ac.kr`과 LinkedIn 링크가 연결되어 있습니다.
 - CV를 `public/cv.pdf`에 업로드하고 `cv` 값을 `/cv.pdf`로 설정하면 CV 버튼이 표시됩니다.
-- 이메일과 CV는 현재 미입력 상태로 버튼을 숨깁니다.
+- 이메일은 현재 표시되며 CV는 PDF가 아직 업로드되지 않아 버튼을 숨깁니다.
 - 논문, 수상, 연구 성과는 실제 확인 가능한 항목만 추가하세요.
 
 ## 글 작성
@@ -75,3 +76,13 @@ git push origin main
 배포 상태: https://github.com/ashleysys04-blip/ashleysys04-blip.github.io/actions
 
 사이트는 반응형 레이아웃, 페이지별 제목/설명, sitemap, robots.txt, 404 페이지를 포함합니다.
+
+## 사진 직접 넣기
+
+* 연구 사진: `public/images/` 폴더에 사진을 추가한 뒤 `content/profile.json`의 해당 프로젝트 `image`에 `/images/filename.jpg` 입력
+* 프로필 사진: `public/images/portrait.jpg`를 추가하고 `portrait`를 `/images/portrait.jpg`로 변경
+* 클린룸 사진: `cleanroom.image`에 사진 경로 입력
+* 이미지 경로가 비어 있으면 의도적으로 추상 그래픽이 표시됩니다. 깨진 이미지가 나타나지 않습니다.
+* CV: `public/cv.pdf` 업로드 후 `profile.json`의 `cv`를 `/cv.pdf`로 변경
+
+연구, 공정 및 수상 내용은 제공된 CV와 면담 발표 자료를 바탕으로 작성했습니다. 특히 클린룸 경험은 **직접 참여와 관찰을 구분**합니다. 발표 전 문구와 날짜를 최종 확인하세요.

@@ -1,16 +1,233 @@
 {
   "name": "Yeseul Seo",
+  "displayName": "Yeseul (Ashley) Seo",
   "koreanName": "서예슬",
-  "affiliation": "KAIST · Electrical Engineering & Brain and Cognitive Sciences",
-  "headline": "From neural principles to intelligent hardware.",
-  "bio": "I am an undergraduate at KAIST studying electrical engineering and brain and cognitive sciences. My research interests lie at the intersection of neuromorphic devices, neural encoding, and brain-inspired computing.",
-  "researchStatement": "I am interested in how the physical dynamics of devices can support computation, and how insights from neural systems can guide the design of efficient, adaptive hardware.",
+  "affiliation": "KAIST · Electrical Engineering × Brain and Cognitive Sciences",
+  "headline": "From neural dynamics to physical intelligence.",
+  "eyebrow": "Undergraduate Researcher · Prospective Ph.D. student (Fall 2027)",
+  "bio": "I am an undergraduate researcher at KAIST majoring in Electrical Engineering and double majoring in Brain and Cognitive Sciences. I investigate how the physics of semiconductor devices can become a computational resource for neuromorphic hardware.",
+  "researchStatement": "My research spans sensory encoding on mixed-signal neuromorphic chips, nonlinear silicon devices, and brain-inspired learning. I hope to bridge device physics, circuits, and neural computation to build systems in which physical dynamics perform meaningful computation.",
+  "vision": "How can we move computation from separate digital blocks into the intrinsic dynamics of devices and circuits?",
   "github": "https://github.com/ashleysys04-blip",
-  "email": "",
+  "linkedin": "https://www.linkedin.com/in/yeseul-seo/",
+  "email": "ashleysys@kaist.ac.kr",
   "cv": "",
+  "portrait": "",
+  "focus": [
+    "Neuromorphic devices & integrated circuits",
+    "Silicon SOI / SONOS device physics",
+    "Device–circuit–system co-design",
+    "Neural dynamics & sensory encoding"
+  ],
   "projects": [
-    {"number":"01", "category":"Devices", "title":"Hysteretic silicon devices", "description":"Exploring SOI device dynamics and history-dependent behavior through device simulation, with an interest in vestibular encoding.", "context":"KAIST · Device research"},
-    {"number":"02", "category":"Neural encoding", "title":"Neuromorphic vestibular encoding", "description":"Modeling human vestibular encoding using spiking neurons on the DYNAP-SE neuromorphic platform.", "context":"ETH Zurich / INI · Research project"},
-    {"number":"03", "category":"Learning systems", "title":"Emotion control in language models", "description":"Investigating the control of emotional trajectories in language-model dialogue through vector steering.", "context":"KAIST · Brain and cognitive sciences"}
-  ]
+    {
+      "number": "01",
+      "category": "DEVICE PHYSICS / NEUROMORPHIC HARDWARE",
+      "title": "Hysteretic Push–Pull Silicon Devices for History-Dependent Vestibular Encoding",
+      "date": "Jun 2026 — Present",
+      "context": "KAIST · NOBELab · Prof. Yang-Kyu Choi",
+      "description": "Investigating how latch transitions and hysteresis in silicon devices can represent input history and support physically implemented sensory-state encoding.",
+      "details": [
+        "Built Silvaco ATLAS TCAD models for MOSFET, SOI, and SONOS device structures.",
+        "Identified and studied double-latch behavior in SOI transistors, exploring threshold and hysteresis-window tuning.",
+        "Exploring multi-state device behavior and possible roles in excitatory/inhibitory neuromorphic circuits."
+      ],
+      "tags": [
+        "Silvaco ATLAS",
+        "SOI / SONOS",
+        "Hysteresis",
+        "Device modeling"
+      ],
+      "link": "https://github.com/ashleysys04-blip/EE761_DividedBody",
+      "linkLabel": "Related simulation repository",
+      "image": ""
+    },
+    {
+      "number": "02",
+      "category": "NEUROMORPHIC SYSTEMS / NEURAL ENCODING",
+      "title": "Modeling Human Vestibular Encoding on a Neuromorphic Chip",
+      "date": "Feb — Jun 2025",
+      "context": "ETH Zürich · Institute of Neuroinformatics · Prof. Giacomo Indiveri / Elisa Donati",
+      "description": "Modeled vestibular afferent encoding using the DYNAP-SE1 mixed-signal spiking processor, translating sinusoidal sensory stimuli into population spike responses.",
+      "details": [
+        "Injected sinusoidal current stimuli directly into neuromorphic neuron circuits.",
+        "Analyzed inter-spike intervals, firing variability, Welch power spectral density, coherence, and gain.",
+        "Studied the fidelity of frequency encoding and the role of network dynamics in irregular spiking."
+      ],
+      "tags": [
+        "DYNAP-SE1",
+        "Spiking neural networks",
+        "Signal processing",
+        "Python"
+      ],
+      "link": "",
+      "linkLabel": "",
+      "image": ""
+    },
+    {
+      "number": "03",
+      "category": "AI / BRAIN-INSPIRED LEARNING",
+      "title": "LLM Emotion Control by Vector Steering",
+      "date": "Jan — May 2026",
+      "context": "KAIST · Individual Research · Prof. Sang-Wan Lee",
+      "description": "Developed a two-agent dialogue framework to examine whether a controller could influence another language model's emotional trajectory.",
+      "details": [
+        "Applied hidden-state activation steering within selected transformer layers.",
+        "Integrated sentiment and emotion classifiers with Bayesian optimization of controller parameters.",
+        "Compared controlled dialogue behavior under prompt-based and representation-level interventions."
+      ],
+      "tags": [
+        "LLMs",
+        "Vector steering",
+        "Bayesian optimization",
+        "PyTorch"
+      ],
+      "link": "",
+      "linkLabel": "",
+      "image": ""
+    },
+    {
+      "number": "04",
+      "category": "BIOENGINEERING / EXPERIMENTAL NEUROSCIENCE",
+      "title": "Alpha-Synuclein Detection Using Brain Organoids",
+      "date": "Jun — Dec 2024",
+      "context": "KAIST · Individual Research · Prof. Minee Choi",
+      "description": "Investigated α-synuclein aggregation using circular dichroism spectroscopy and midbrain organoid-conditioned media.",
+      "details": [
+        "Designed and optimized measurement conditions using recombinant α-synuclein controls.",
+        "Examined secondary-structure signals under different concentrations, dilutions, and optical path lengths."
+      ],
+      "tags": [
+        "Brain organoids",
+        "Circular dichroism",
+        "Experimental design"
+      ],
+      "link": "",
+      "linkLabel": "",
+      "image": ""
+    }
+  ],
+  "experience": [
+    {
+      "place": "KAIST · Nano-Oriented Bio-Electronics Laboratory (NOBELab)",
+      "role": "Undergraduate Researcher",
+      "date": "Jun 2026 — Present",
+      "mentor": "Advisor: Prof. Yang-Kyu Choi",
+      "summary": "TCAD modeling and measurements of silicon devices, including short-channel effects, charge trapping, impact ionization, hysteresis, and neuromorphic device operation."
+    },
+    {
+      "place": "ETH Zürich · Institute of Neuroinformatics (INI)",
+      "role": "Research Project Student",
+      "date": "Feb — Jun 2025",
+      "mentor": "Advisor: Prof. Giacomo Indiveri · Supervisor: Elisa Donati",
+      "summary": "Neuromorphic modeling of vestibular-system encoding with DYNAP-SE1; experimental stimulation, neural spike recording, and statistical/spectral analysis."
+    },
+    {
+      "place": "KAIST · Brain and Machine Intelligence research",
+      "role": "Undergraduate Researcher",
+      "date": "Jan — May 2026",
+      "mentor": "Advisor: Prof. Sang-Wan Lee",
+      "summary": "Controllable emotion trajectories in two-agent LLM dialogue through internal vector steering and Bayesian optimization."
+    },
+    {
+      "place": "KAIST · Bioengineering research",
+      "role": "Undergraduate Researcher",
+      "date": "Jun — Dec 2024",
+      "mentor": "Advisor: Prof. Minee Choi",
+      "summary": "Circular dichroism spectroscopy for studying α-synuclein aggregation in an organoid-related experimental setting."
+    }
+  ],
+  "cleanroom": {
+    "heading": "From simulation to fabrication.",
+    "intro": "Alongside computational device research, I have sought practical exposure to semiconductor processing and device characterization at KAIST NOBELab.",
+    "items": [
+      {
+        "title": "Diffusive memristor × SOI SONOS integration",
+        "description": "Observed fabrication and process-integration work involving diffusive memristors integrated with SOI SONOS devices."
+      },
+      {
+        "title": "IGZO device arrays",
+        "description": "Participated in IGZO device-array fabrication, gaining exposure to how process choices translate into working device structures."
+      },
+      {
+        "title": "Electrical characterization",
+        "description": "Experience with semiconductor parameter analysis and device measurement equipment, including Keysight B1500 and Agilent 4156C."
+      }
+    ],
+    "note": "Fabrication observation and hands-on participation are distinguished intentionally; this is not a claim of independent ownership of the full process flow.",
+    "image": ""
+  },
+  "education": [
+    {
+      "school": "KAIST",
+      "degree": "B.S. in Electrical Engineering · Double Major in Brain and Cognitive Sciences",
+      "date": "Feb 2023 — Jun 2027 (expected)",
+      "location": "Daejeon, South Korea",
+      "detail": "GPA 4.08 / 4.30 (3.93 / 4.00)"
+    },
+    {
+      "school": "ETH Zürich",
+      "degree": "Exchange student · Department of Information Technology and Electrical Engineering",
+      "date": "2025",
+      "location": "Zürich, Switzerland",
+      "detail": "GPA 5.18 / 6.00 · Neural Systems, Machine Learning, research project"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Departmental Top Student Scholarship",
+      "detail": "1st in Brain and Cognitive Sciences",
+      "date": "Fall 2024"
+    },
+    {
+      "name": "Departmental Top Student Scholarship",
+      "detail": "2nd in Brain and Cognitive Sciences",
+      "date": "Spring 2026"
+    },
+    {
+      "name": "National Scholarship for Science and Engineering",
+      "detail": "Competitive national STEM scholarship",
+      "date": "2025–2026"
+    },
+    {
+      "name": "Exchange Study Scholarship",
+      "detail": "Support for international exchange",
+      "date": "Spring 2025"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Device & circuit",
+      "items": [
+        "Silvaco ATLAS TCAD",
+        "LTspice / ngspice",
+        "DC & transient analysis",
+        "Keysight B1500",
+        "Agilent 4156C"
+      ]
+    },
+    {
+      "category": "Programming & ML",
+      "items": [
+        "Python",
+        "PyTorch",
+        "NumPy / Pandas",
+        "scikit-learn",
+        "MATLAB",
+        "C",
+        "Verilog"
+      ]
+    },
+    {
+      "category": "Neural & experimental",
+      "items": [
+        "DYNAP-SE1",
+        "Spike-train analysis",
+        "Spectral analysis",
+        "Raspberry Pi",
+        "Circular dichroism"
+      ]
+    }
+  ],
+  "teaching": "KAIST Peer Tutor · Calculus II and General Chemistry (2024)"
 }
