@@ -3,8 +3,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: '17 */6 * * *'
 permissions:
   contents: read
 concurrency:
@@ -18,12 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: npm test
       - run: npm run build
-        env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_DATABASE_ID: ${{ vars.NOTION_DATABASE_ID }}
-          NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

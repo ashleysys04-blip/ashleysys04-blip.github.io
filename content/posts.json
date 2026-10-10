@@ -1,0 +1,23 @@
+[
+  {
+    "published": false,
+    "slug": "my-research-note",
+    "title": "My research note",
+    "date": "2026-10-10",
+    "description": "A short summary of this research note.",
+    "body": [
+      {
+        "type": "paragraph",
+        "text": "Replace this draft with your own writing before setting published to true."
+      },
+      {
+        "type": "heading",
+        "text": "Research question"
+      },
+      {
+        "type": "paragraph",
+        "text": "Describe the question, method, and what you learned."
+      }
+    ]
+  }
+]
