@@ -25,8 +25,13 @@ export function renderPortfolio(profile, posts, cv, e, safeUrl, listing) {
     <section class="hero hero-modern" id="about"><div class="hero-copy">
       <h1>${e(profile.name)}</h1>
       <p class="hero-bio">${e(profile.bio)}</p>
-      <div class="actions"><a class="button" href="#research">Explore research <span>↘</span></a>${cv}<a class="button secondary" href="mailto:${e(profile.email)}">Get in touch ↗</a></div>
       <p class="hero-affiliation">${e(profile.affiliation)}</p>
+      <div class="hero-contact" id="contact" aria-label="Contact and academic profiles">
+        ${profile.email ? `<a class="hero-contact-link" href="mailto:${e(profile.email)}"><span class="hero-contact-type">Email</span><span>${e(profile.email)} ↗</span></a>` : ''}
+        ${profile.github ? `<a class="hero-contact-link" href="${e(safeUrl(profile.github))}" target="_blank" rel="noopener noreferrer"><span class="hero-contact-type">GitHub</span><span>View profile ↗</span></a>` : ''}
+        ${profile.linkedin ? `<a class="hero-contact-link" href="${e(safeUrl(profile.linkedin))}" target="_blank" rel="noopener noreferrer"><span class="hero-contact-type">LinkedIn</span><span>Connect ↗</span></a>` : ''}
+      </div>
+      <div class="actions hero-actions"><a class="button" href="#research">Explore research <span>↘</span></a>${cv}</div>
       </div><div class="hero-visual">${photo || `<div class="concept-art" aria-label="From sensory input through device dynamics to computation" role="img"><span class="concept-top">A RESEARCH TRAJECTORY</span><div class="concept-ring ring-1"></div><div class="concept-ring ring-2"></div><div class="concept-ring ring-3"></div><div class="concept-dot"></div><div class="concept-label concept-label-top">SENSORY SYSTEMS</div><div class="concept-label concept-label-mid">DEVICE PHYSICS</div><div class="concept-label concept-label-bottom">NEUROMORPHIC COMPUTATION</div><span class="concept-bottom">BRAIN → CHIP → DEVICE → SYSTEM</span></div>`}</div>
     </section>
     <section class="portfolio-section" id="education"><div class="section-title"><div><p class="eyebrow">01 / Academic background</p><h2>Education & recognition</h2></div></div><div class="academic-grid"><div class="education-items">${education}</div><div class="awards"><h3>Selected scholarships</h3>${awards}<div class="mentoring"><span class="small-label">TEACHING & MENTORING</span><p>${e(profile.teaching)}</p></div></div></div></section>
@@ -37,6 +42,6 @@ export function renderPortfolio(profile, posts, cv, e, safeUrl, listing) {
     
     <section class="portfolio-section" id="skills"><div class="section-title"><div><p class="eyebrow">06 / Technical toolkit</p><h2>Methods & tools</h2></div></div><div class="skills-grid">${skills}</div></section>
     ${posts.length ? `<section class="portfolio-section" id="writing"><div class="section-title"><div><p class="eyebrow">07 / Notebook</p><h2>Writing & research notes</h2></div><a class="quiet-link" href="/writing/">All writing ↗</a></div>${listing(posts.slice(0,3))}</section>` : ''}
-    <section class="contact contact-modern" id="contact"><div><p class="eyebrow">Start a conversation</p><h2>Let's connect.</h2><p>I welcome conversations and collaborations in neuromorphic devices, neural computation, and brain-inspired hardware.</p></div><div class="contact-links"><a class="button" href="mailto:${e(profile.email)}">${e(profile.email)} ↗</a><a class="button secondary" href="${e(safeUrl(profile.github))}" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a class="button secondary" href="${e(safeUrl(profile.linkedin))}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>${cv}</div></section>
+    
   `;
 }

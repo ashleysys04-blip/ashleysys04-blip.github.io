@@ -130,3 +130,15 @@ h2{font-size:clamp(36px,4.4vw,58px);letter-spacing:-2px}
 .education-lines .ed-program{font-size:14px;font-weight:600;color:var(--ink)}
 .education-lines .ed-detail{font-size:13px;color:var(--muted);margin-top:10px}
 .education-lines .ed-coursework,.education-lines .ed-location{font-size:13px;color:var(--muted)}
+
+/* Prominent, directly accessible academic contact links beside the portrait */
+.hero-modern .hero-copy{min-width:0}
+.hero-modern .hero-affiliation{margin:24px 0 0;font-size:12px;letter-spacing:.3px}
+.hero-contact{display:flex;flex-direction:column;max-width:570px;border-top:1px solid var(--line);margin-top:23px}
+.hero-contact-link{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px;text-decoration:none;color:var(--ink)}
+.hero-contact-link:hover{color:var(--accent)}
+.hero-contact-type{font-weight:600;color:var(--muted);font-size:12px;min-width:78px}
+.hero-contact-link>span:last-child{overflow-wrap:anywhere;text-align:right}
+.hero-actions{margin-top:27px}
+.hero-modern .hero-visual{align-self:center}
+@media(max-width:760px){.hero-contact{margin-top:22px}.hero-contact-link{padding:10px 0;font-size:12px}.hero-contact-type{min-width:65px}.hero-modern .hero-visual{margin-top:4px}}
