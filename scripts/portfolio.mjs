@@ -23,7 +23,7 @@ export function renderPortfolio(profile, posts, cv, e, safeUrl, listing) {
   const photo = profile.portrait && /^\/[a-z0-9._/-]+$/i.test(profile.portrait) ? `<img class="portrait" src="${e(profile.portrait)}" alt="Portrait of ${e(profile.name)}">` : '';
   return `
     <section class="hero hero-modern" id="about"><div class="hero-copy">
-      <h1>${e(profile.name)}<span class="hero-korean">${e(profile.koreanName)}</span></h1>
+      <h1>${e(profile.name)}</h1>
       <p class="hero-bio">${e(profile.bio)}</p>
       <div class="actions"><a class="button" href="#research">Explore research <span>↘</span></a>${cv}<a class="button secondary" href="mailto:${e(profile.email)}">Get in touch ↗</a></div>
       <p class="hero-affiliation">${e(profile.affiliation)}</p>
