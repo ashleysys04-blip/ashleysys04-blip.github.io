@@ -1,0 +1,16 @@
+{
+  "name": "Yeseul Seo",
+  "koreanName": "서예슬",
+  "affiliation": "KAIST · Electrical Engineering & Brain and Cognitive Sciences",
+  "headline": "From neural principles to intelligent hardware.",
+  "bio": "I am an undergraduate at KAIST studying electrical engineering and brain and cognitive sciences. My research interests lie at the intersection of neuromorphic devices, neural encoding, and brain-inspired computing.",
+  "researchStatement": "I am interested in how the physical dynamics of devices can support computation, and how insights from neural systems can guide the design of efficient, adaptive hardware.",
+  "github": "https://github.com/ashleysys04-blip",
+  "email": "",
+  "cv": "",
+  "projects": [
+    {"number":"01", "category":"Devices", "title":"Hysteretic silicon devices", "description":"Exploring SOI device dynamics and history-dependent behavior through device simulation, with an interest in vestibular encoding.", "context":"KAIST · Device research"},
+    {"number":"02", "category":"Neural encoding", "title":"Neuromorphic vestibular encoding", "description":"Modeling human vestibular encoding using spiking neurons on the DYNAP-SE neuromorphic platform.", "context":"ETH Zurich / INI · Research project"},
+    {"number":"03", "category":"Learning systems", "title":"Emotion control in language models", "description":"Investigating the control of emotional trajectories in language-model dialogue through vector steering.", "context":"KAIST · Brain and cognitive sciences"}
+  ]
+}

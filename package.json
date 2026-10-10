@@ -1,0 +1,11 @@
+{
+  "name": "yeseul-academic-site",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {
+    "build": "node --env-file-if-exists=.env scripts/build.mjs",
+    "test": "node --test",
+    "dev": "npm run build && node scripts/serve.mjs"
+  }
+}
