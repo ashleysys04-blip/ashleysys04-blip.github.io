@@ -41,7 +41,7 @@ export function renderPortfolio(profile, posts, cv, e, safeUrl, listing) {
     <section class="portfolio-section cleanroom-section" id="cleanroom"><div class="section-title"><div><p class="eyebrow">05 / Hands-on experience</p><h2>Cleanroom & fabrication</h2></div><p>${e(profile.cleanroom.intro)}</p></div><div class="fabrication-panel"><div class="fabrication-lead">${profile.cleanroom.image ? `<img class="fabrication-photo" src="${e(profile.cleanroom.image)}" alt="Semiconductor fabrication and cleanroom experience" loading="lazy" decoding="async">` : ''}<div class="fabrication-overlay"><h3>${e(profile.cleanroom.heading)}</h3><p>Semiconductor fabrication &amp; device characterization</p></div></div><div class="fabrication-list">${fabrication}</div></div></section>
     
     <section class="portfolio-section" id="skills"><div class="section-title"><div><p class="eyebrow">06 / Technical toolkit</p><h2>Methods & tools</h2></div></div><div class="skills-grid">${skills}</div></section>
-    ${posts.length ? `<section class="portfolio-section" id="writing"><div class="section-title"><div><p class="eyebrow">07 / Notebook</p><h2>Writing & research notes</h2></div><a class="quiet-link" href="/writing/">All writing ↗</a></div>${listing(posts.slice(0,3))}</section>` : ''}
-    
+    ${posts.length ? `<section class="portfolio-section" id="writing"><div class="section-title"><div><p class="eyebrow">08 / Notebook</p><h2>Writing & research notes</h2></div><a class="quiet-link" href="/writing/">All writing ↗</a></div>${listing(posts.slice(0,3))}</section>` : ''}
+    <section class="personal-section" id="beyond-research"><div class="personal-heading"><p class="eyebrow">07 / Personal</p><h2>${e(profile.outsideResearch.title)}</h2></div><div class="personal-copy"><p>${e(profile.outsideResearch.description)}</p><span class="personal-interest">CLASSICAL MUSIC</span></div></section>
   `;
 }

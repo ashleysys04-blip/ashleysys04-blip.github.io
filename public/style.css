@@ -142,3 +142,11 @@ h2{font-size:clamp(36px,4.4vw,58px);letter-spacing:-2px}
 .hero-actions{margin-top:27px}
 .hero-modern .hero-visual{align-self:center}
 @media(max-width:760px){.hero-contact{margin-top:22px}.hero-contact-link{padding:10px 0;font-size:12px}.hero-contact-type{min-width:65px}.hero-modern .hero-visual{margin-top:4px}}
+
+/* Outside-the-lab personal introduction. */
+.personal-section{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:65px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:62px 0 75px;margin-bottom:38px}
+.personal-section h2{margin-bottom:0}
+.personal-copy{padding-top:37px}
+.personal-copy p{max-width:510px;font-size:17px;color:var(--muted);line-height:1.8;margin-bottom:20px}
+.personal-interest{font-size:10px;letter-spacing:1.4px;color:var(--accent);font-weight:700}
+@media(max-width:760px){.personal-section{grid-template-columns:1fr;gap:14px;padding:42px 0 50px}.personal-copy{padding-top:0}.personal-copy p{font-size:15px}}

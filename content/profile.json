@@ -231,5 +231,9 @@
       ]
     }
   ],
-  "teaching": "KAIST Peer Tutor · Calculus II and General Chemistry (2024)"
+  "teaching": "KAIST Peer Tutor · Calculus II and General Chemistry (2024)",
+  "outsideResearch": {
+    "title": "Beyond Research",
+    "description": "Outside the lab, I enjoy listening to classical music. It's one of my favorite ways to spend my free time."
+  }
 }
