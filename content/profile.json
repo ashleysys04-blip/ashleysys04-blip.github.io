@@ -2,9 +2,9 @@
   "name": "Yeseul Seo",
   "displayName": "Yeseul (Ashley) Seo",
   "koreanName": "서예슬",
-  "affiliation": "KAIST · Electrical Engineering × Brain and Cognitive Sciences",
-  "headline": "From neural dynamics to physical intelligence.",
-  "eyebrow": "Undergraduate Researcher · Prospective Ph.D. student (Fall 2027)",
+  "affiliation": "KAIST · Electrical Engineering & Brain and Cognitive Sciences",
+  "headline": "",
+  "eyebrow": "",
   "bio": "I am an undergraduate researcher at KAIST majoring in Electrical Engineering and double majoring in Brain and Cognitive Sciences. I investigate how the physics of semiconductor devices can become a computational resource for neuromorphic hardware.",
   "researchStatement": "My research spans sensory encoding on mixed-signal neuromorphic chips, nonlinear silicon devices, and brain-inspired learning. I hope to bridge device physics, circuits, and neural computation to build systems in which physical dynamics perform meaningful computation.",
   "vision": "How can we move computation from separate digital blocks into the intrinsic dynamics of devices and circuits?",
@@ -12,10 +12,10 @@
   "linkedin": "https://www.linkedin.com/in/yeseul-seo/",
   "email": "ashleysys@kaist.ac.kr",
   "cv": "",
-  "portrait": "",
+  "portrait": "/KakaoTalk_Photo_2026-10-10-21-28-44.png",
   "focus": [
     "Neuromorphic devices & integrated circuits",
-    "Silicon SOI / SONOS device physics",
+    "Single transistor latch in Si device",
     "Device–circuit–system co-design",
     "Neural dynamics & sensory encoding"
   ],
@@ -155,7 +155,7 @@
       }
     ],
     "note": "Fabrication observation and hands-on participation are distinguished intentionally; this is not a claim of independent ownership of the full process flow.",
-    "image": ""
+    "image": "/KakaoTalk_Photo_2026-10-10-21-28-54.jpeg"
   },
   "education": [
     {

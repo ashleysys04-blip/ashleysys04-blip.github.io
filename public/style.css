@@ -108,3 +108,13 @@ h2{font-size:clamp(36px,4.4vw,58px);letter-spacing:-2px}
 .contact-links .button{gap:10px}
 @media(max-width:1000px){.shell{padding:0 36px}.hero-modern{gap:30px;grid-template-columns:1fr .8fr}.hero-visual{height:400px}.concept-label{font-size:8px}.two-column-section{gap:35px}.research-card-grid{gap:25px}}
 @media(max-width:760px){.shell{padding:0 24px}header{min-height:80px;align-items:flex-start;gap:12px;padding:20px 0}nav{gap:13px 18px;line-height:1.9}nav a{font-size:11px}.hero-modern{grid-template-columns:1fr;padding:53px 0 40px}.hero-modern h1{font-size:56px}.hero-korean{display:block;font-size:17px;margin:12px 0}.hero-visual{height:270px}.hero-bio{font-size:15px}.research-tagline{font-size:32px}.info-strip{gap:10px;flex-wrap:wrap;font-size:9px}.two-column-section{display:block}.focus-list{padding-top:36px}.section-title{display:block;margin-bottom:32px}.section-title>p{max-width:560px;margin-top:22px}.research-card-grid{grid-template-columns:1fr}.research-art{margin-top:5px}.signal-art{min-height:210px}.research-card{padding:30px 0 40px}.research-meta{flex-direction:column;gap:5px}.timeline-item{grid-template-columns:1fr;gap:7px}.fabrication-panel{grid-template-columns:1fr}.fabrication-lead{min-height:290px}.fabrication-list{padding:8px 24px}.academic-grid{grid-template-columns:1fr;gap:25px}.skills-grid{grid-template-columns:1fr;gap:28px}.contact-modern{display:block;padding:34px 25px;margin-top:35px}.contact-links{margin-top:25px}.vision-quote{font-size:19px}.ed-head{display:block}.ed-head span{display:block;text-align:left;margin-bottom:10px}footer{gap:10px}.button{gap:22px}}
+
+/* Personal photograph and cleanroom photograph */
+.hero-visual .portrait{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%;border-radius:2px}
+.fabrication-lead{position:relative;isolation:isolate;display:block;min-height:375px;padding:0;overflow:hidden;background:#c1d0c7}
+.fabrication-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.fabrication-lead::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,33,26,.81) 0%,rgba(10,33,26,.24) 50%,rgba(10,33,26,0) 80%);pointer-events:none}
+.fabrication-overlay{position:absolute;z-index:1;bottom:0;left:0;right:0;padding:34px 30px}
+.fabrication-overlay h3{font-family:Georgia,serif;color:#fff;font-size:clamp(23px,2.5vw,31px);margin:0 0 8px;font-weight:400;line-height:1.2}
+.fabrication-overlay p{color:rgba(255,255,255,.88);font-size:12px;margin:0}
+@media(max-width:760px){.hero-visual .portrait{object-position:center 30%}.fabrication-lead{min-height:320px}}
