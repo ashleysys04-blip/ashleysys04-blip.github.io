@@ -4,8 +4,8 @@
   "affiliation": "KAIST · Electrical Engineering & Brain and Cognitive Sciences",
   "headline": "",
   "eyebrow": "",
-  "bio": "I am an undergraduate researcher at KAIST majoring in Electrical Engineering and double majoring in Brain and Cognitive Sciences. I investigate how the physics of semiconductor devices can become a computational resource for neuromorphic hardware.",
-  "researchStatement": "My research spans sensory encoding on mixed-signal neuromorphic chips, nonlinear silicon devices, and brain-inspired learning. I hope to bridge device physics, circuits, and neural computation to build systems in which physical dynamics perform meaningful computation.",
+  "bio": "I'm an undergraduate at KAIST studying Electrical Engineering and Brain and Cognitive Sciences. In Prof. Yang-Kyu Choi's lab, I work on latch-up and hysteresis in SOI transistors using TCAD. Before that, I studied vestibular signal encoding on the DYNAP-SE1 chip at ETH Zürich.",
+  "researchStatement": "I'm interested in how nonlinear device behavior, particularly latch-up and hysteresis, can be used in neuromorphic circuits. My work has taken me from measuring spike responses on a neuromorphic chip to studying the semiconductor physics behind such systems.",
   "vision": "How can we move computation from separate digital blocks into the intrinsic dynamics of devices and circuits?",
   "github": "https://github.com/ashleysys04-blip",
   "linkedin": "https://www.linkedin.com/in/yeseul-seo/",
@@ -13,10 +13,10 @@
   "cv": "",
   "portrait": "/KakaoTalk_Photo_2026-10-10-21-28-44.png",
   "focus": [
-    "Neuromorphic devices & integrated circuits",
+    "Neuromorphic devices and circuits",
     "Single transistor latch in Si device",
-    "Device–circuit–system co-design",
-    "Neural dynamics & sensory encoding"
+    "Device–circuit co-design",
+    "Neural encoding and sensory systems"
   ],
   "projects": [
     {
@@ -25,11 +25,11 @@
       "title": "Double-Latch Switching in Divided-Body SOI Transistors",
       "date": "Aug 2026 — Present",
       "context": "KAIST · NOBELab · Silvaco ATLAS",
-      "description": "Engineered a divided-body SOI transistor architecture to investigate sequential switching and multistate hysteresis within a silicon device.",
+      "description": "I use Silvaco ATLAS to study how two separate latch transitions can arise in a divided-body SOI transistor.",
       "details": [
-        "Designed a split-body structure with two floating-body regions separated by an n+ island, a resistive tap, and tailored carrier lifetime.",
-        "Observed two latch transitions at 2.254 V and 3.296 V in drift-diffusion (DD) simulations, with distinct hysteresis windows.",
-        "Studied the effects of body doping, island geometry, recombination lifetime, and tap resistance on switching behavior."
+        "Built an SOI structure with two body regions separated by an n+ island and a resistive tap.",
+        "Observed latch transitions at 2.254 V and 3.296 V in drift-diffusion simulations.",
+        "Tested how doping, island geometry, carrier lifetime, and tap resistance affect the hysteresis."
       ],
       "tags": [
         "Silvaco ATLAS",
@@ -47,11 +47,10 @@
       "title": "Modeling Human Vestibular Encoding on a Neuromorphic Chip",
       "date": "Feb — Jun 2025",
       "context": "ETH Zürich · Institute of Neuroinformatics · Prof. Giacomo Indiveri / Prof. Elisa Donati",
-      "description": "Modeled vestibular afferent encoding using the DYNAP-SE1 mixed-signal spiking processor, translating sinusoidal sensory stimuli into population spike responses.",
+      "description": "At ETH's Institute of Neuroinformatics, I used DYNAP-SE1 to study how vestibular signals are represented by spiking neurons.",
       "details": [
-        "Injected sinusoidal current stimuli directly into neuromorphic neuron circuits.",
-        "Analyzed inter-spike intervals, firing variability, Welch power spectral density, coherence, and gain.",
-        "Studied the fidelity of frequency encoding and the role of network dynamics in irregular spiking."
+        "Applied sinusoidal current directly to the chip instead of using an FPGA-generated input spike train.",
+        "Analyzed firing rates, inter-spike intervals, CV, Welch PSD, coherence, and gain."
       ],
       "tags": [
         "DYNAP-SE1",
@@ -69,11 +68,10 @@
       "title": "LLM Emotion Control by Vector Steering",
       "date": "Jan — May 2026",
       "context": "KAIST · Individual Research · Prof. Sang-Wan Lee",
-      "description": "Developed a two-agent dialogue framework to examine whether a controller could influence another language model's emotional trajectory.",
+      "description": "I studied whether one language model could influence another model's emotional responses during a multi-turn conversation.",
       "details": [
-        "Applied hidden-state activation steering within selected transformer layers.",
-        "Integrated sentiment and emotion classifiers with Bayesian optimization of controller parameters.",
-        "Compared controlled dialogue behavior under prompt-based and representation-level interventions."
+        "Applied hidden-state activation steering to selected transformer layers.",
+        "Used emotion classifiers and Bayesian optimization to tune the controller and compare it with prompt-based interventions."
       ],
       "tags": [
         "LLMs",
@@ -91,10 +89,10 @@
       "title": "Alpha-Synuclein Detection Using Brain Organoids",
       "date": "Jun — Dec 2024",
       "context": "KAIST · Individual Research · Prof. Minee Choi",
-      "description": "Investigated α-synuclein aggregation using circular dichroism spectroscopy and midbrain organoid-conditioned media.",
+      "description": "I worked on circular dichroism measurements of α-synuclein in midbrain organoid-conditioned media.",
       "details": [
-        "Designed and optimized measurement conditions using recombinant α-synuclein controls.",
-        "Examined secondary-structure signals under different concentrations, dilutions, and optical path lengths."
+        "Optimized measurements using recombinant α-synuclein controls.",
+        "Compared conditions including concentration, dilution, and optical path length."
       ],
       "tags": [
         "Brain organoids",
@@ -112,45 +110,45 @@
       "role": "Undergraduate Researcher",
       "date": "Jun 2026 — Present",
       "mentor": "Advisor: Prof. Yang-Kyu Choi",
-      "summary": "TCAD modeling and measurements of silicon devices, including short-channel effects, charge trapping, impact ionization, hysteresis, and neuromorphic device operation."
+      "summary": "SOI and SONOS device simulations, latch-up and hysteresis measurements, and TCAD studies of device behavior."
     },
     {
       "place": "ETH Zürich · Institute of Neuroinformatics (INI)",
       "role": "Research Project Student",
       "date": "Feb — Jun 2025",
       "mentor": "Advisor: Prof. Giacomo Indiveri · Supervisor: Prof. Elisa Donati",
-      "summary": "Neuromorphic modeling of vestibular-system encoding with DYNAP-SE1; experimental stimulation, neural spike recording, and statistical/spectral analysis."
+      "summary": "Vestibular encoding experiments on DYNAP-SE1, including stimulus design and spike-train analysis."
     },
     {
       "place": "KAIST · Brain and Machine Intelligence research",
       "role": "Undergraduate Researcher",
       "date": "Jan — May 2026",
       "mentor": "Advisor: Prof. Sang-Wan Lee",
-      "summary": "Controllable emotion trajectories in two-agent LLM dialogue through internal vector steering and Bayesian optimization."
+      "summary": "Two-agent dialogue experiments using LLM activation steering and Bayesian optimization."
     },
     {
       "place": "KAIST · Bioengineering research",
       "role": "Undergraduate Researcher",
       "date": "Jun — Dec 2024",
       "mentor": "Advisor: Prof. Minee Choi",
-      "summary": "Circular dichroism spectroscopy for studying α-synuclein aggregation in an organoid-related experimental setting."
+      "summary": "Circular dichroism experiments involving α-synuclein and midbrain organoid-conditioned media."
     }
   ],
   "cleanroom": {
     "heading": "From measurement to fabrication.",
-    "intro": "Alongside computational device research, I have sought practical exposure to semiconductor processing and device characterization at KAIST NOBELab.",
+    "intro": "At NOBELab, I have also been learning semiconductor fabrication and device measurement through IGZO array work and the integration of diffusive memristors with SOI SONOS.",
     "items": [
       {
         "title": "Diffusive memristor × SOI SONOS integration",
-        "description": "Observed fabrication and process-integration work involving diffusive memristors integrated with SOI SONOS devices."
+        "description": "Observed lithography, deposition, and integration steps for diffusive memristors on SOI SONOS devices."
       },
       {
         "title": "IGZO device arrays",
-        "description": "Participated in IGZO device-array fabrication, gaining exposure to how process choices translate into working device structures."
+        "description": "Participated in work on IGZO device-array fabrication."
       },
       {
         "title": "Electrical characterization",
-        "description": "Experience with semiconductor parameter analysis and device measurement equipment, including Keysight B1500 and Agilent 4156C."
+        "description": "Used semiconductor measurement tools, including the B1500 and 4156C, to characterize device behavior."
       }
     ],
     "note": "Fabrication observation and hands-on participation are distinguished intentionally; this is not a claim of independent ownership of the full process flow.",
@@ -233,8 +231,8 @@
   ],
   "teaching": "KAIST Peer Tutor · Calculus II and General Chemistry (2024)",
   "outsideResearch": {
-    "title": "Beyond Research",
-    "description": "Outside the lab, I enjoy listening to classical music and traveling. My favorite composers are Rachmaninoff, Schumann, and Chopin, and my favorite piece is Rachmaninoff’s Piano Concerto No. 3.",
+    "title": "Outside the lab",
+    "description": "I listen to a lot of Rachmaninoff, Schumann, and Chopin. Rachmaninoff's Piano Concerto No. 3 is my favorite piece. I also enjoy traveling.",
     "interests": [
       "CLASSICAL MUSIC",
       "TRAVEL"
